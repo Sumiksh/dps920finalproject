@@ -2,7 +2,10 @@
 
 This project implements a system for detecting motion in sports videos and visualizes a viewport that follows the action. It is useful for automating analysis or focusing on the most interesting parts (ROI) of sport videos.
 
+## How to run code  
+
 ## File: `main.py`
+python main.py --video path/to/video.mp4 --output output_dir --fps 5 --viewport_size 800x600
 
 **Purpose:**  
 Serves as the **entry point** for the Sports Motion Detection & Viewport Tracking pipeline. It orchestrates the complete process — parsing inputs, extracting frames, detecting motion, tracking the viewport, and visualizing results.
